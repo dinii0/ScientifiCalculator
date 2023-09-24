@@ -1,7 +1,7 @@
 # <h2 align=center>*ScientifiCalculator *</h2>
 
 <p align="center">
-   <img src= "https://raw.githubusercontent.com/dinii0/ScientifiCalculator/main/ScientifiCalculator/background.jpg?token=GHSAT0AAAAAACIAAC5RXDHIBBUVCYR46AYGZIQIFSQ">
+   <img src= "https://github.com/dinii0/ScientifiCalculator/blob/main/ScientifiCalculator/background.jpg?raw=true">
 </p>
 
 ## <h2 align=center>*What is this Password Vault?* </h2>
