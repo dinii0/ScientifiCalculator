@@ -1,24 +1,24 @@
-# <h2 align=center>*ScientifiCalculator *</h2>
+# <h2 align=center>*ScientifiCalculator*</h2>
 
 <p align="center">
    <img src= "https://github.com/dinii0/ScientifiCalculator/blob/main/ScientifiCalculator/background.jpg?raw=true">
 </p>
 
-## <h2 align=center>*What is this Password Vault?* </h2>
-Password vault is an application coded in C++, which helps users to store certain passwords, codes, or anything personal into a more secured area.
+## <h2 align=center>*What is this Calculator about?* </h2>
+This calculator helps users to calculate different equations, the calculator gives you opportunity to work with matrices, GCM, sigma function, pi, sin, tan, cos etc.
 
-## <h2 align=center>*How does this work?* </h2>
-The app has a simple encrypting/decrypting system which hides the passcodes into a file. The file will be saved in the same directory where the executable file is.
+## <h2 align=center>*Files and their structure* </h2>
 
-## <h2 align=center>*How can I add passwords?* </h2>
-There is a button written *'Add Item'*, when you press this a window will pop up. There you will have two fields:
-+ Name
-   - Short info regarding what this passcode is about.
-+ Passcode
-   - The actual passcode.
-   
-## <h2 align=center>*How can I remove passwords?* </h2>
-Simple, select the passcode you wish to discard, right click it, and click *'Remove Item'*
+## <h2 align=center>*There are 3 windows, what are those about??* </h2>
+  + Number table
+       - Here the app shows the equation you wrote as an input, and if there is a result it will be painted on the bottom of the window.
+  + Warning table
+       - Everytime you input something that is mathematical/logical incorrect, the window warns you by outputing the error and emiting a warning sound
+  + Temporary save
+       - If you want to save an equation later while calculating, you can press the button top-right, and it will be saved till u close the application.
+
+## <h2 align=center>*What is the button next to the 'Save' one?* </h2>
+I implemented a dark/light mode feature. You can change the color scheme of the application everytime you press it.
 
 ## <h2 align=center>*Installation* </h2>
 The code I provided is not full. So therefor I recommend manually to add the files to an existing project of yours. The main source code is *'PasswordVault.cpp'*. I also provided the *.ico* file and the *.rc*
@@ -35,29 +35,29 @@ The code I provided is not full. So therefor I recommend manually to add the fil
    + Intel Proccesor
    + NVIDIA Graphics Card
 
-... with that being said, I'm expecting one some operative system to not work or to be buggy. Especially old operating system with outdated motherboard, CPU etc.
+... with that being said, I'm expecting on some operative system to not work or to be buggy. Especially old operating system with outdated drivers.
 
 <table align="center">
   <tr>
     <td align="center">
       <h2>Issues, pull requests and repo</h2>
-      <a href="https://github.com/dinii0/PasswordVault/issues">
-        <img src="https://img.shields.io/github/issues/dinii0/PasswordVault" alt="GitHub issues">
+      <a href="https://github.com/dinii0/ScientifiCalculator/issues">
+        <img src="https://img.shields.io/github/issues/dinii0/ScientifiCalculator" alt="GitHub issues">
       </a>
-      <a href="https://github.com/dinii0/PasswordVault/issues?q=is%3Aissue+is%3Aclosed">
-        <img src="https://img.shields.io/github/issues-closed/dinii0/PasswordVault" alt="GitHub issues closed">
+      <a href="https://github.com/dinii0/ScientifiCalculator/issues?q=is%3Aissue+is%3Aclosed">
+        <img src="https://img.shields.io/github/issues-closed/dinii0/ScientifiCalculator" alt="GitHub issues closed">
       </a>
-      <a href="https://github.com/dinii0/PasswordVault/pulls">
-        <img src="https://img.shields.io/github/issues-pr/dinii0/PasswordVault" alt="GitHub pull requests">
+      <a href="https://github.com/dinii0/ScientifiCalculator/pulls">
+        <img src="https://img.shields.io/github/issues-pr/dinii0/ScientifiCalculator" alt="GitHub pull requests">
       </a>
-      <a href="https://github.com/dinii0/PasswordVault/pulls?q=is%3Apr+is%3Aclosed">
-        <img src="https://img.shields.io/github/issues-pr-closed/dinii0/PasswordVault" alt="GitHub pull requests closed">
+      <a href="https://github.com/dinii0/ScientifiCalculator/pulls?q=is%3Apr+is%3Aclosed">
+        <img src="https://img.shields.io/github/issues-pr-closed/dinii0/ScientifiCalculator" alt="GitHub pull requests closed">
       </a>
       <br>
       <img src="https://github-readme-stats.vercel.app/api?username=dinii0&show_icons=true" alt="dinii0's GitHub Stats">
       <br>
       <h2>You can give me a star!</h2>
-      <a href="https://github.com/dinii0/PasswordVault/stargazers">
+      <a href="https://github.com/dinii0/ScientifiCalculator/stargazers">
         <img src="https://www.builtwithlovellc.com/wp-content/uploads/2022/01/cropped-built-with-love-logo-5.png" alt="Built with Love">
       </a>
     </td>
