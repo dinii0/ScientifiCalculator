@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScientifiCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CalculateButtons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowButtons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TableNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFormulas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviatedWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ScientifiCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculateButtons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowButtons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TableNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicNumbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFormulas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviatedWindows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WarningBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ScientifiCalculator.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ScientifiCalculator.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="switch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\absolute_value.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\addition.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\binomial_coeficient.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\binomial_power.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\bracket_closing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\bracket_opening.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\clear.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\combination.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\cos.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\determinant.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\divide.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\dot.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\factorial.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\fraction.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\function_exp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\function_sign.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\greatest_common_factor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\log(2).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\log(5).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\log(10).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\log(y).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\matrix.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\module.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\multiply.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\natural_algorithm.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\number0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\number1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\number2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\number3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\number4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\number5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\number6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\number7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\number8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\number9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\pi.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\pow(2).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\pow(3).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\pow(4).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\pow(y).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\premutation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\sigma.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\sinus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\sqrt(2).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\sqrt(3).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\sqrt(4).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\sqrt(y).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\substract.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\sum_powers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\tangent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\undo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttons_icons\variation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="save.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mp31.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="warning.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

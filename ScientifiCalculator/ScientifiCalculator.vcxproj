@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{12033d08-02d7-46d4-a924-b41c68335c3a}</ProjectGuid>
+    <RootNamespace>ScientifiCalculator</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BackgroundMode.h" />
+    <ClInclude Include="CalculateButtons.h" />
+    <ClInclude Include="ConvertData.h" />
+    <ClInclude Include="DeviatedWindows.h" />
+    <ClInclude Include="DynamicNumbers.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="HistoryList.h" />
+    <ClInclude Include="MathFormulas.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceReader.h" />
+    <ClInclude Include="ScientifiCalculator.h" />
+    <ClInclude Include="TableNumber.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TitleBar.h" />
+    <ClInclude Include="WarningBox.h" />
+    <ClInclude Include="WindowButtons.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackgroundMode.cpp" />
+    <ClCompile Include="CalculateButtons.cpp" />
+    <ClCompile Include="ConvertData.cpp" />
+    <ClCompile Include="DeviatedWindows.cpp" />
+    <ClCompile Include="DynamicNumbers.cpp" />
+    <ClCompile Include="HistoryList.cpp" />
+    <ClCompile Include="MathFormulas.cpp" />
+    <ClCompile Include="ResourceReader.cpp" />
+    <ClCompile Include="ScientifiCalculator.cpp" />
+    <ClCompile Include="TableNumber.cpp" />
+    <ClCompile Include="TitleBar.cpp" />
+    <ClCompile Include="WarningBox.cpp" />
+    <ClCompile Include="WindowButtons.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ScientifiCalculator.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="buttons_icons\absolute_value.png" />
+    <Image Include="buttons_icons\addition.png" />
+    <Image Include="buttons_icons\binomial_coeficient.png" />
+    <Image Include="buttons_icons\binomial_power.png" />
+    <Image Include="buttons_icons\bracket_closing.png" />
+    <Image Include="buttons_icons\bracket_opening.png" />
+    <Image Include="buttons_icons\clear.png" />
+    <Image Include="buttons_icons\combination.png" />
+    <Image Include="buttons_icons\cos.png" />
+    <Image Include="buttons_icons\determinant.png" />
+    <Image Include="buttons_icons\divide.png" />
+    <Image Include="buttons_icons\dot.png" />
+    <Image Include="buttons_icons\factorial.png" />
+    <Image Include="buttons_icons\fraction.png" />
+    <Image Include="buttons_icons\function_exp.png" />
+    <Image Include="buttons_icons\function_sign.png" />
+    <Image Include="buttons_icons\greatest_common_factor.png" />
+    <Image Include="buttons_icons\log(10).png" />
+    <Image Include="buttons_icons\log(2).png" />
+    <Image Include="buttons_icons\log(5).png" />
+    <Image Include="buttons_icons\log(y).png" />
+    <Image Include="buttons_icons\matrix.png" />
+    <Image Include="buttons_icons\module.png" />
+    <Image Include="buttons_icons\multiply.png" />
+    <Image Include="buttons_icons\natural_algorithm.png" />
+    <Image Include="buttons_icons\number0.png" />
+    <Image Include="buttons_icons\number1.png" />
+    <Image Include="buttons_icons\number2.png" />
+    <Image Include="buttons_icons\number3.png" />
+    <Image Include="buttons_icons\number4.png" />
+    <Image Include="buttons_icons\number5.png" />
+    <Image Include="buttons_icons\number6.png" />
+    <Image Include="buttons_icons\number7.png" />
+    <Image Include="buttons_icons\number8.png" />
+    <Image Include="buttons_icons\number9.png" />
+    <Image Include="buttons_icons\pi.png" />
+    <Image Include="buttons_icons\pow(2).png" />
+    <Image Include="buttons_icons\pow(3).png" />
+    <Image Include="buttons_icons\pow(4).png" />
+    <Image Include="buttons_icons\pow(y).png" />
+    <Image Include="buttons_icons\premutation.png" />
+    <Image Include="buttons_icons\sigma.png" />
+    <Image Include="buttons_icons\sinus.png" />
+    <Image Include="buttons_icons\sqrt(2).png" />
+    <Image Include="buttons_icons\sqrt(3).png" />
+    <Image Include="buttons_icons\sqrt(4).png" />
+    <Image Include="buttons_icons\sqrt(y).png" />
+    <Image Include="buttons_icons\substract.png" />
+    <Image Include="buttons_icons\sum_powers.png" />
+    <Image Include="buttons_icons\tangent.png" />
+    <Image Include="buttons_icons\undo.png" />
+    <Image Include="buttons_icons\variation.png" />
+    <Image Include="save.png" />
+    <Image Include="ScientifiCalculator.ico" />
+    <Image Include="small.ico" />
+    <Image Include="switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mp31.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="warning.mp3" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
