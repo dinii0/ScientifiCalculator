@@ -27,7 +27,7 @@ This calculator helps users to calculate different equations, the calculator giv
    + [ScientifiCalculator](https://github.com/dinii0/ScientifiCalculator/blob/main/ScientifiCalculator/ScientifiCalculator.cpp)
         - The main file, this is where the main window is created and executed first.
    + [TableNumber.cpp](https://github.com/dinii0/ScientifiCalculator/blob/main/ScientifiCalculator/TableNumber.cpp)
-        - Creates/paints the equation and the result window table.
+        - Creates/paints the equation and the results in the window table.
    + [TitleBar.cpp](https://github.com/dinii0/ScientifiCalculator/blob/main/ScientifiCalculator/TitleBar.cpp)
         - Creates/paints the title bar and it created custom exit/minimaze buttons.
    + [WarningBox.cpp](https://github.com/dinii0/ScientifiCalculator/blob/main/ScientifiCalculator/WarningBox.cpp)
@@ -49,6 +49,12 @@ I implemented a dark/light mode feature. You can change the color scheme of the 
 
 ## <h2 align=center>*Installation* </h2>
 The code I provided is not full. So therefor I recommend manually to add the files to an existing project of yours. The main source code is *'PasswordVault.cpp'*. I also provided the *.ico* file and the *.rc*
+
+## <h2 align=center>*References* </h2>
+   + ResourceReader.cpp: [Stackoverflow post](https://stackoverflow.com/a/66238748) and [ChatGPT](https://chat.openai.com/)
+   + [Audio warning](https://pixabay.com/sound-effects/wrong-answer-126515/)
+   + [Eigen](https://github.com/libigl/eigen)
+   + [Bass](https://www.un4seen.com/)
 
 ## <h2 align=center>*Some informations regarding to the application* </h2>
 - You can store as many passcodes as you want, there are no limit and it's expected to work efficiently.
