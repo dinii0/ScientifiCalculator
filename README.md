@@ -50,12 +50,6 @@ I implemented a dark/light mode feature. You can change the color scheme of the 
 ## <h2 align=center>*Installation* </h2>
 The code I provided is not full. So therefor I recommend manually to add the files to an existing project of yours. The main source code is *'PasswordVault.cpp'*. I also provided the *.ico* file and the *.rc*
 
-## <h2 align=center>*References* </h2>
-   + ResourceReader.cpp: [Stackoverflow post](https://stackoverflow.com/a/66238748) and [ChatGPT](https://chat.openai.com/)
-   + [Audio warning](https://pixabay.com/sound-effects/wrong-answer-126515/)
-   + [Eigen](https://github.com/libigl/eigen)
-   + [Bass](https://www.un4seen.com/)
-
 ## <h2 align=center>*Some informations regarding to the application* </h2>
 - You can store as many passcodes as you want, there are no limit and it's expected to work efficiently.
 - Encryption is **NOT** 100% qualitative, so therefor It can be cracked if someone sits and analizes them for a **VERY** long time, otherwise it can't be crackable immediately, unless they look at the *'WordCryption.h'* file.
@@ -69,6 +63,14 @@ The code I provided is not full. So therefor I recommend manually to add the fil
    + NVIDIA Graphics Card
 
 ... with that being said, I'm expecting on some operative system to not work or to be buggy. Especially old operating system with outdated drivers.
+
+
+## <h2 align=center>*References* </h2>
+   + ResourceReader.cpp: [Stackoverflow post](https://stackoverflow.com/a/66238748) and [ChatGPT](https://chat.openai.com/)
+   + [Audio warning](https://pixabay.com/sound-effects/wrong-answer-126515/)
+   + [Eigen](https://github.com/libigl/eigen)
+   + [Bass](https://www.un4seen.com/)
+
 
 <table align="center">
   <tr>
