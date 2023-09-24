@@ -48,7 +48,7 @@ This calculator helps users to calculate different equations, the calculator giv
 I implemented a dark/light mode feature. You can change the color scheme of the application everytime you press it.
 
 ## <h2 align=center>*Installation* </h2>
-The code I provided is not full. So therefor I recommend manually to add the files to an existing project of yours. The main source code is *'PasswordVault.cpp'*. I also provided the *.ico* file and the *.rc*
+Nothing difficult, just download the [file](https://github.com/dinii0/ScientifiCalculator/releases/tag/scientific.calculator), extract it somewhere in your harddisk, and run the application. (Make sure the bass.dll file is in the same directory as your .exe!)
 
 ## <h2 align=center>*Some informations regarding to the application* </h2>
 - You can store as many passcodes as you want, there are no limit and it's expected to work efficiently.
