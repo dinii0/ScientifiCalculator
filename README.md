@@ -42,7 +42,7 @@ This calculator helps users to calculate different equations, the calculator giv
   + Warning table
        - Everytime you input something that is mathematical/logical incorrect, the window warns you by outputing the error and emiting a warning sound
   + Temporary save
-       - If you want to save an equation later while calculating, you can press the button top-right, and it will be saved till u close the application.
+       - If you want to save an equation later while calculating, you can press the save button (top-right), and it will be saved till u close the application.
 
 ## <h2 align=center>*What is the button next to the 'Save' one?* </h2>
 I implemented a dark/light mode feature. You can change the color scheme of the application everytime you press it.
@@ -51,9 +51,8 @@ I implemented a dark/light mode feature. You can change the color scheme of the 
 Nothing difficult, just download the [file](https://github.com/dinii0/ScientifiCalculator/releases/tag/scientific.calculator), extract it somewhere in your harddisk, and run the application. (Make sure the bass.dll file is in the same directory as your .exe!)
 
 ## <h2 align=center>*Some informations regarding to the application* </h2>
-- You can store as many passcodes as you want, there are no limit and it's expected to work efficiently.
-- Encryption is **NOT** 100% qualitative, so therefor It can be cracked if someone sits and analizes them for a **VERY** long time, otherwise it can't be crackable immediately, unless they look at the *'WordCryption.h'* file.
-- The name/passcode can be saved to your clipboard if you double click the item.
+- History window will save only the last **10 equations** you saved, after the that it starts discarding the old equations.
+- You can make your equation as long as you want, untill you try to pass the right side of the window, but either way if you try you'll be warned with a sound and a text from warning table.
 - I won't be updating this application sooner or later, unless there's a huge bug or a glitch that kills the proccess of working efficiently
 - This project was tested on this system:
    + Windows 11
