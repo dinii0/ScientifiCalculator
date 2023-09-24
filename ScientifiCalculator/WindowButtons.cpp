@@ -384,7 +384,7 @@ LRESULT CALLBACK ButtonWindowProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM
                             break;
                         }
                         if (count < 2) {
-                            send_warning_message("You you only have from 2 to 9 colomns/rows", true);
+                            send_warning_message("You can only have from 2 to 9 colomns/rows", true);
                             break;
                         }
                         
